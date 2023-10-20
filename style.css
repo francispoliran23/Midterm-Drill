@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    line-height: 0.9;
+}
+
+  .psu_toptext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .logo-container {
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+
+
+
+
+
+
+  
+  .logo-container img {
+    max-width: 110px;
+  }
+  
+  /* REGISTRATION NUM */
+  .registration_No h4 span {
+    color: red;
+  }
+  
+  main {
+    border: solid black;
+    min-height: 100vh;
+  }
+  
+  section {
+    padding-bottom: 1rem;
+  }
+
+
+
+
+  
+  .general_info_1 {
+    background-color: #ddccff;
+    text-align: center;
+    padding: 0.3rem;
+    border-bottom: solid black;
+  }
+  strong{
+    font-size: 20px;
+  }
+  
+  .general-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .gender-age {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .general_info_2 {
+    background-color: #ddccff;
+    padding: 0.3rem;
+    border-bottom: solid black;
+    border-top: solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .unit div {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .general-info-2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .subjects {
+    margin-left: 10rem;
+    display: flex;
+    gap: 8rem;
+  }
+  
+  .units {
+    margin-left: 4rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .credits {
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .section {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .schedule {
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .prof {
+    margin-left: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
